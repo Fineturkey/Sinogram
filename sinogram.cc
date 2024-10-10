@@ -228,7 +228,6 @@ int compute_sinogram_width(int m, int n)
 
 void create_sinogram(Coeff **img, Coeff **sinogram, int numAngles, int m, int n, int sinogram_width)
 {
-    cout << "Entered" << endl;
     // attempted at incrementing it based off the amount of angles/projections to be done.
     // numAngles has to be set to 180
     // increment according to the total amount of angles wished to be checked
